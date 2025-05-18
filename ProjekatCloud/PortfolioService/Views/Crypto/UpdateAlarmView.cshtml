@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "UpdateAlarmView";
+}
+
+<h2>Prikaz svih korisnikovih dostignutih alarma</h2>
+@foreach (var v in ViewBag.AlarmForUser)
+{
+    <p>Za alarm @v.Currency dostignuta je vrednost @v.AlarmValue</p>
+}
+
+@Html.ActionLink("Profil", "MyProfile", "Home")

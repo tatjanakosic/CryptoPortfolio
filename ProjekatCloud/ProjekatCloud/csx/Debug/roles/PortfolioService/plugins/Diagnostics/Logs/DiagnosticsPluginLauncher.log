@@ -1,0 +1,17 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Emulator config file set to C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\PortfolioService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] DiagnosticsStoreRootPath set to: C:\Users\korisnik\AppData\Local\dftmp\Resources\805a6fd3-02e7-4f98-a71e-762f4606ac57
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Loading config file: C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\PortfolioService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Config file to read: C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\PortfolioService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Emulator config file set to C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\PortfolioService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:12] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:14:25] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:14:25] DiagnosticPlugin exited with code 0

@@ -1,0 +1,19 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] At least one other instance of the launcher is running. Will wait until they all finish
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Service running in Emulator Mode, will not wait/kill other instances of the launcher
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Emulator config file set to C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\HealthStatusService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] DiagnosticsStoreRootPath set to: C:\Users\korisnik\AppData\Local\dftmp\Resources\42db0655-218f-47d8-8500-86b6fadc0585
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Loading config file: C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\HealthStatusService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Config file to read: C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\HealthStatusService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Emulator config file set to C:\Users\korisnik\Desktop\projekatcloud2\ProjekatCloud\ProjekatCloud\ProjekatCloud\csx\Debug\roles\HealthStatusService\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:13] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:14] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:13:14] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:14:25] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [4.6.2024. 14:14:25] DiagnosticPlugin exited with code 0

@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Index";
+    List<int> percentages = ViewBag.Percentages;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <h2>Grafikon za poslednji sat</h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['DA', 'NE'],
+                        datasets: [{
+                            label: 'Procenti po satima',
+                            data: @Html.Raw(Json.Encode(percentages)),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+</body>
+</html>

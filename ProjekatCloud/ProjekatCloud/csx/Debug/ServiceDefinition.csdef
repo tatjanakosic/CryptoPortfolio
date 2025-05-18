@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ProjekatCloud" schemaVersion="2015-04.2.6" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WebRole name="HealthStatusService" vmsize="Standard_D1_v2">
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="LogConnectionString" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="healthstatus" protocol="http" port="8080" localPort="8080" />
+    </Endpoints>
+    <Certificates />
+  </WebRole>
+  <WebRole name="PortfolioService" vmsize="Standard_D1_v2">
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="AlarmConnectionString" />
+      <Setting name="AlarmDoneConnectionString" />
+      <Setting name="CryptoConnectionString" />
+      <Setting name="DataConnectionString" />
+      <Setting name="DataConnectionStringBlob" />
+      <Setting name="LogConnectionString" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="QueueConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="Endpoint1" protocol="http" port="80" localPort="80" />
+      <InternalEndpoint name="Input_WebRole" protocol="tcp">
+        <FixedPortRange min="8081" max="8081" />
+      </InternalEndpoint>
+    </Endpoints>
+    <Certificates />
+  </WebRole>
+  <WorkerRole name="HealthMonitoringService" vmsize="Standard_D1_v2">
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="LogConnectionString" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="healthmonitoring" protocol="tcp" port="10100" localPort="10100" />
+    </Endpoints>
+    <Certificates />
+  </WorkerRole>
+  <WorkerRole name="NotificationService" vmsize="Standard_D1_v2">
+    <LocalResources>
+      <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="AlarmConnectionString" />
+      <Setting name="AlarmDoneConnectionString" />
+      <Setting name="CryptoConnectionString" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="QueueConnectionString" />
+    </ConfigurationSettings>
+    <Endpoints>
+      <InternalEndpoint name="Input_WorkerRole" protocol="tcp">
+        <FixedPortRange min="10101" max="10101" />
+      </InternalEndpoint>
+    </Endpoints>
+    <Certificates />
+  </WorkerRole>
+</ServiceDefinition>

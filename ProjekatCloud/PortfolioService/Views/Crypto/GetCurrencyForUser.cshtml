@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Currency for user";
+}
+
+@{
+    ViewBag.Title = "Currency"; }
+<h2>Prikaz kriptovaluta i kolicina</h2>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@foreach (KeyValuePair<string, int> crypto in ViewBag.Currency)
+{
+    <fieldset>
+        <div class="editor-label">
+            <span>Naziv: </span>
+            <span>@crypto.Key</span>
+        </div>
+        <div class="editor-label">
+            <span>kolicina: </span>
+            <span>@crypto.Value</span>
+        </div>
+    </fieldset>
+}
+@Html.ActionLink("Profil", "MyProfile", "Home")

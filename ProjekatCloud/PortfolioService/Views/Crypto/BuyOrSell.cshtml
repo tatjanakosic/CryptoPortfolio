@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Buy or Sell curreny";
+}
+@model Common.CryptoDTO
+@{
+    ViewBag.Title = "Kupi ili prodaj valutu"; }
+<h2>Izvrsi transakciju</h2>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+@using (Html.BeginForm("BuyOrSellCrypto", "Crypto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Crypto</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Currency, "Select Symbol")
+        </div>
+        <div class="editor-field">
+            @{
+                var symbols = ViewBag.Symbols as List<string>;
+                var selectListItems = symbols?.Select(s => new SelectListItem { Value = s, Text = s }).ToList() ?? new List<SelectListItem>();
+            }
+            @Html.DropDownListFor(model => model.Currency, selectListItems, "Choose...", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Currency)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price) @Html.ValidationMessageFor(model => model.Price)
+        </div>
+        @*<div class="editor-label">
+                @Html.LabelFor(model => model.Quantity)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Quantity) @Html.ValidationMessageFor(model => model.Quantity)
+            </div>*@
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Date)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control", type = "datetime-local" } })
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Type)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Type) @Html.ValidationMessageFor(model => model.Type)
+        </div>
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+@using (Html.BeginForm("AddAlarm", "Crypto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Crypto Alarm</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Currency, "Select Symbol")
+        </div>
+        <div class="editor-field">
+            @{
+                var symbols = ViewBag.Symbols as List<string>;
+                var selectListItems = symbols?.Select(s => new SelectListItem { Value = s, Text = s }).ToList() ?? new List<SelectListItem>();
+            }
+            @Html.DropDownListFor(model => model.Currency, selectListItems, "Choose...", new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.Currency)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price) @Html.ValidationMessageFor(model => model.Price)
+        </div>
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+@Html.ActionLink("Profil", "MyProfile", "Home")
+
+<form action="/Crypto/Filter" method="post">
+    <label>Unesite naziv</label>
+    <input type="text" name="filter" required/>
+    <input type="submit" />
+</form>
+<table>
+    <tr>
+        <td>Naziv: </td>
+        <td>Vrednost: </td>
+    </tr>
+    @foreach (var v in ViewBag.AllInfo)
+    {
+        <tr>
+            <td>@v.Symbol</td>
+            <td>@v.Price</td>
+        </tr>
+    }
+</table>

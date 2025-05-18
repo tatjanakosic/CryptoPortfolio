@@ -1,0 +1,141 @@
+﻿@*@{
+        Layout = null;
+        var values = ViewBag.ListOfValues as List<double>;
+    }
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Numbers and Values</title>
+        <style>
+            .number-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .number-item {
+                margin: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="number-container">
+            @for (int i = 1; i <= 24; i++)
+            {
+            <div class="number-item">
+                @if ((ViewBag.now - 24 + i) < 0)
+                {
+                    <div>@(24 + (ViewBag.now - 24 + i))</div>
+                }
+                else
+                {
+                <div>@(ViewBag.now - 24 + i)</div>
+                }
+                <div>@values[i - 1]</div>
+            </div>
+            }
+        </div>
+    </body>
+    </html>*@
+
+
+@*@{
+        ViewBag.Title = "Index";
+        List<double> percentages = ViewBag.Percentages;
+    }
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>@ViewBag.Title</title>
+    </head>
+    <body>
+        <h2>Grafikon Procenata po Satima</h2>
+        <canvas id="myChart" width="400" height="200"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: Array.from({ length: 24 }, (_, i) => i + 1),
+                        datasets: [{
+                            label: 'Procenti po satima',
+                            data: @Html.Raw(Json.Encode(percentages)),
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+    </html>*@
+
+@{
+    ViewBag.Title = "Index";
+    List<double> percentages = ViewBag.Percentages;
+    int currentHour = ViewBag.now;
+    List<int> hours = new List<int>();
+
+    // Generisanje oznaka za prethodnih 24 sata
+    for (int i = 0; i < 24; i++)
+    {
+        int hour = (currentHour - 23 + i) % 24;
+        if (hour < 0)
+        {
+            hour += 24;
+        }
+        hours.Add(hour);
+    }
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+    <h2>Grafikon Procenata po Satima</h2>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: @Html.Raw(Json.Encode(hours)),
+                    datasets: [{
+                        label: 'Procenti po satima',
+                        data: @Html.Raw(Json.Encode(percentages)),
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+    <div>
+        @Html.ActionLink("Graf za poslednji sat", "About")
+    </div>
+</body>
+</html>

@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\logdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\logdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\currencynamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\currencynamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\alarmdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\alarmdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\blobhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\blobhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\isendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\isendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\common\\inotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\inotify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\email\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|solutionrelative:email\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|solutionrelative:email\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\email\\emailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAB87E31-7B70-41B3-B73D-0855AF21F147}|Email\\Email.csproj|solutionrelative:email\\emailadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\healthstatusservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|c:\\users\\mm\\desktop\\cloud\\projekatcloud\\projekatcloud\\healthstatusservice\\webrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\webrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthstatusservice\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthstatusservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthstatusservice\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CFEAEA2D-D130-4A55-A276-D20A3505CD40}|HealthStatusService\\HealthStatusService.csproj|solutionrelative:healthstatusservice\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthmonitoringservice\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\workerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthmonitoringservice\\jobserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\jobserviceprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\healthmonitoringservice\\jobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF025C0-7106-47D7-93B2-E18EBDFB0DE9}|HealthMonitoringService\\HealthMonitoringService.csproj|solutionrelative:healthmonitoringservice\\jobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1006BB-2A84-4450-9789-B33257D96DA2}|PortfolioService\\PortfolioService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\portfolioservice\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1006BB-2A84-4450-9789-B33257D96DA2}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1006BB-2A84-4450-9789-B33257D96DA2}|PortfolioService\\PortfolioService.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\portfolioservice\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1006BB-2A84-4450-9789-B33257D96DA2}|PortfolioService\\PortfolioService.csproj|solutionrelative:portfolioservice\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\common\\cryptodatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\cryptodatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\common\\userdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3EC8287-F628-4A08-B5FB-2412D6C5A790}|Common\\Common.csproj|solutionrelative:common\\userdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\LogDataRepository.cs",
+              "RelativeDocumentMoniker": "Common\\LogDataRepository.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\LogDataRepository.cs",
+              "RelativeToolTip": "Common\\LogDataRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAB4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:49.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\Log.cs",
+              "RelativeDocumentMoniker": "Common\\Log.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\Log.cs",
+              "RelativeToolTip": "Common\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:47.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyNameDTO.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\CurrencyNameDTO.cs",
+              "RelativeDocumentMoniker": "Common\\CurrencyNameDTO.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\CurrencyNameDTO.cs",
+              "RelativeToolTip": "Common\\CurrencyNameDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:46.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Crypto.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\Crypto.cs",
+              "RelativeDocumentMoniker": "Common\\Crypto.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\Crypto.cs",
+              "RelativeToolTip": "Common\\Crypto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:43.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AlarmDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\AlarmDataRepository.cs",
+              "RelativeDocumentMoniker": "Common\\AlarmDataRepository.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\AlarmDataRepository.cs",
+              "RelativeToolTip": "Common\\AlarmDataRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlobHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\BlobHelper.cs",
+              "RelativeDocumentMoniker": "Common\\BlobHelper.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\BlobHelper.cs",
+              "RelativeToolTip": "Common\\BlobHelper.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:24.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INotify.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\INotify.cs",
+              "RelativeDocumentMoniker": "Common\\INotify.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\INotify.cs",
+              "RelativeToolTip": "Common\\INotify.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:17.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISendEmail.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\ISendEmail.cs",
+              "RelativeDocumentMoniker": "Common\\ISendEmail.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\ISendEmail.cs",
+              "RelativeToolTip": "Common\\ISendEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:21:16.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SendEmail.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\SendEmail.cs",
+              "RelativeDocumentMoniker": "Email\\SendEmail.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\SendEmail.cs",
+              "RelativeToolTip": "Email\\SendEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:20:43.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\Program.cs",
+              "RelativeDocumentMoniker": "Email\\Program.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\Program.cs",
+              "RelativeToolTip": "Email\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:20:36.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\EmailAdmin.cs",
+              "RelativeDocumentMoniker": "Email\\EmailAdmin.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Email\\EmailAdmin.cs",
+              "RelativeToolTip": "Email\\EmailAdmin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:20:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebRole.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\WebRole.cs",
+              "RelativeDocumentMoniker": "HealthStatusService\\WebRole.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\WebRole.cs",
+              "RelativeToolTip": "HealthStatusService\\WebRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:20:22.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HealthStatusService\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HealthStatusService\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T16:43:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "HealthStatusService\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "HealthStatusService\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T16:43:43.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "HealthStatusService\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "HealthStatusService\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T16:34:21.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HealthStatusService\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthStatusService\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HealthStatusService\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:30:45.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\Service.cs",
+              "RelativeDocumentMoniker": "HealthMonitoringService\\Service.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\Service.cs",
+              "RelativeToolTip": "HealthMonitoringService\\Service.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:28:40.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WorkerRole.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\WorkerRole.cs",
+              "RelativeDocumentMoniker": "HealthMonitoringService\\WorkerRole.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\WorkerRole.cs",
+              "RelativeToolTip": "HealthMonitoringService\\WorkerRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:28:39.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JobServiceProvider.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\JobServiceProvider.cs",
+              "RelativeDocumentMoniker": "HealthMonitoringService\\JobServiceProvider.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\JobServiceProvider.cs",
+              "RelativeToolTip": "HealthMonitoringService\\JobServiceProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:28:37.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JobServer.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\JobServer.cs",
+              "RelativeDocumentMoniker": "HealthMonitoringService\\JobServer.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\HealthMonitoringService\\JobServer.cs",
+              "RelativeToolTip": "HealthMonitoringService\\JobServer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:28:33.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\PortfolioService\\Global.asax.cs",
+              "RelativeDocumentMoniker": "PortfolioService\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\PortfolioService\\Global.asax.cs",
+              "RelativeToolTip": "PortfolioService\\Global.asax.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAvwCQAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T15:09:59.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CryptoDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\CryptoDataRepository.cs",
+              "RelativeDocumentMoniker": "Common\\CryptoDataRepository.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\CryptoDataRepository.cs",
+              "RelativeToolTip": "Common\\CryptoDataRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAApwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:34:44.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\PortfolioService\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "PortfolioService\\Controllers\\CryptoController.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\PortfolioService\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "PortfolioService\\Controllers\\CryptoController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAkwBAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:33:10.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\UserDataRepository.cs",
+              "RelativeDocumentMoniker": "Common\\UserDataRepository.cs",
+              "ToolTip": "C:\\Users\\mm\\Desktop\\cloud\\ProjekatCloud\\ProjekatCloud\\Common\\UserDataRepository.cs",
+              "RelativeToolTip": "Common\\UserDataRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:16:38.875Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

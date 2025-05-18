@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Buy or Sell curreny";
+}
+@model Common.CurrencyNameDTO
+@{
+    ViewBag.Title = "Ukupan profit za odredjenu kriptovalutu"; }
+<h2>Prikaz valuta</h2>
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+@using (Html.BeginForm("ViewProfitOrLoss", "Crypto", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Name, "Select Symbol")
+    </div>
+    <div class="editor-field">
+        @{
+            var symbols = ViewBag.Symbols as List<string>;
+            var selectListItems = symbols?.Select(s => new SelectListItem { Value = s, Text = s }).ToList() ?? new List<SelectListItem>();
+        }
+        @Html.DropDownListFor(model => model.Name, selectListItems, "Choose...", new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+@if (ViewBag.NotResult != true)
+{
+    <label>Stanje nakon obracuna je @ViewBag.Result za kriptovalutu @ViewBag.Currency</label>
+}
+@Html.ActionLink("Profil", "MyProfile", "Home")
